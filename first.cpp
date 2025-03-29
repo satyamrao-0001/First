@@ -1,23 +1,22 @@
-#include <iostream>
-using namespace std ; 
-int main () {
+// #include <iostream>
+// using namespace std ; 
+// int main () {
 
 
-cout<<"Hello World"; 
-}
-
+// cout<<"Hello World"; 
+// }
 
 #include<iostream>
-using namespace std;
-int main(){
-int n ; 
-cout<<"Enter a number :" ;
-cout<<"Enter a number :" ; 
-
-if(n%2==0) {
-    cout<<"even number"<<endl;
-}else{
- cout<<  "odd number" ; 
+using namespace std ;
+int main (){
+    int age ;
+    cout<<"Enter age : ";
+    cin>>age ;
+    if (age>=18){
+        cout<<"can give the vote\n";
+    } 
+    else {
+        cout<<"can't give the vote \n";
+    }
+    return 0 ;
 }
-
-} 
