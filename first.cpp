@@ -134,21 +134,39 @@
 
 // }
 
-#include<iostream>
-using namespace std ; 
+// #include<iostream>
+// using namespace std ; 
+// int main (){
+//     int n = 5 ; 
+//     int num= 1;
+// for(int i= 0 ; i<n ; i++ ) {
+//         for( int j=i+1 ; j>0 ; j-- ){
+
+//             cout<<num<<"  " ;
+//             num=num +1 ;
+
+//         }
+//         cout<<endl; 
+
+//     }
+//     }
+
+#include<iostream>//VECTORS
+#include<vector>
+using namespace std ;
+
 int main (){
-    int n = 5 ; 
-    int num= 1;
-for(int i= 0 ; i<n ; i++ ) {
-        for( int j=i+1 ; j>0 ; j-- ){
-
-            cout<<num<<"  " ;
-            num=num +1 ;
-
+  int array[5]={1,2,3,4,5} ;
+  int n = 5 ; 
+  for(int st=0 ; st<n ; st ++){
+      for(int end=st ; end<n ; end ++){
+        for(int i=st ; i<=end ; i++ ){
+          cout<<array[i] ;
         }
-        cout<<endl; 
 
-    }
-    }
-
-
+     cout<<" " ;  
+  }
+  
+ cout<<endl;
+}
+}
