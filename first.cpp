@@ -172,12 +172,26 @@
 // }
 
 #include<iostream>
-#include<vector>
-using namespace std ;
+// #include<vector>
+// using namespace std ;
 
-int main () {
-  vector<char>vec={'a','b','c'} ;
-  for(char val : vec ){
-    cout<<val<<endl; 
-  }
-}
+// int main () {
+//   vector<char>vec={'a','b','c'} ;
+//   for(char val : vec ){
+//     cout<<val<<endl; 
+//   }
+// }
+
+#include<iostream>
+using namespace std ;
+int main (){
+int marks [5]
+= {99, 69, 98 , 97 , 100} ; 
+cout<<marks[1]<<endl;
+ cout<<marks[2]<<endl;
+ 
+cout<<marks[3]<<endl;
+ 
+cout<<marks[4]<<endl;
+ 
+cout<<marks[0]<<endl;}
