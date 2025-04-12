@@ -182,16 +182,27 @@
 //   }
 // }
 
-#include<iostream>
+// #include<iostream>
+// using namespace std ;
+// int main (){
+// int marks [5]
+// = {99, 69, 98 , 97 , 100} ; 
+// cout<<marks[1]<<endl;
+//  cout<<marks[2]<<endl;
+ 
+// cout<<marks[3]<<endl;
+ 
+// cout<<marks[4]<<endl;
+ 
+// cout<<marks[0]<<endl;}
+
+
+#include <iostream>
+#include<cstring>
+
 using namespace std ;
-int main (){
-int marks [5]
-= {99, 69, 98 , 97 , 100} ; 
-cout<<marks[1]<<endl;
- cout<<marks[2]<<endl;
- 
-cout<<marks[3]<<endl;
- 
-cout<<marks[4]<<endl;
- 
-cout<<marks[0]<<endl;}
+int main () {
+    char str[] = {'a','b','c','\0'} ;
+    cout << strlen(str) << endl; 
+    return 0 ;  
+}
