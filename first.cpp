@@ -197,12 +197,25 @@
 // cout<<marks[0]<<endl;}
 
 
-#include <iostream>
-#include<cstring>
+// #include <iostream>
+// #include<cstring>
 
+// using namespace std ;
+// int main () {
+//     char str[] = {'a','b','c','\0'} ;
+//     cout << strlen(str) << endl; 
+//     return 0 ;  
+// }
+
+#include <iostream> 
 using namespace std ;
 int main () {
-    char str[] = {'a','b','c','\0'} ;
-    cout << strlen(str) << endl; 
-    return 0 ;  
+    char str [100] ; ;
+
+    cout<<"enter char array : "<<endl; 
+    cin>> str  ; 
+     
+
+    cout<<"output:"<<str<<endl ; 
+    
 }
