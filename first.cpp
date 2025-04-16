@@ -207,15 +207,25 @@
 //     return 0 ;  
 // }
 
+// #include <iostream> 
+// using namespace std ;
+// int main () {
+//     char str [100] ; ;
+
+//     cout<<"enter char array : "<<endl; 
+//     cin>> str  ; 
+     
+
+//     cout<<"output:"<<str<<endl ; 
+    
+// }
+
 #include <iostream> 
 using namespace std ;
 int main () {
-    char str [100] ; ;
-
-    cout<<"enter char array : "<<endl; 
-    cin>> str  ; 
-     
-
-    cout<<"output:"<<str<<endl ; 
-    
+    char str [] ="satyam yadav " ;
+    int len = 0; 
+    for(int i=0 ; i<str[i]!='\0' ; i++)
+    len ++ ; 
+    cout<<"length of string :"<<len<<endl ;
 }
