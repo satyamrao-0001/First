@@ -220,12 +220,26 @@
     
 // }
 
-#include <iostream> 
-using namespace std ;
-int main () {
-    char str [] ="satyam yadav " ;
-    int len = 0; 
-    for(int i=0 ; i<str[i]!='\0' ; i++)
-    len ++ ; 
-    cout<<"length of string :"<<len<<endl ;
+// #include <iostream> 
+// using namespace std ;
+// int main () {
+//     char str [] ="satyam yadav " ;
+//     int len = 0; 
+//     for(int i=0 ; i<str[i]!='\0' ; i++)
+//     len ++ ; 
+//     cout<<"length of string :"<<len<<endl ;
+// }
+
+# include<iostream>
+# include <vector>
+using namespace std ; 
+int main() {
+
+
+vector<int> vec ={1,2,3,4,5} ; 
+vector<int> ::iterator it ;
+for(it = vec.begin() ; it  !=vec.end(); it++ ) {
+cout<<*(it)<<"  ";
+}
+cout<<endl ; 
 }
